@@ -5,8 +5,6 @@ import { FaMapMarkedAlt, FaUserCircle } from "react-icons/fa";
 import { ImLab } from "react-icons/im";
 
 
-
-
 const SideBar = () => {
     return (
         <div className="fixed top-0 left-0 h-screen w-16 m-0
