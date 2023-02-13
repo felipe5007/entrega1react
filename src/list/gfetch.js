@@ -1,4 +1,4 @@
-const productos = [
+let productos = [
     {id: '1', categoria: 'Camisa', nombre: 'Camisa Roja', detalle: 'Camisa ligera de planchado, Manga larga de color rojo', precio: 1000, stock: 10, imagen: '../../src/assets/Productos/Croja.jpg'},
     {id: '2', categoria: 'Camisa', nombre: 'Camisa Celeste', detalle: 'Camisa ligera de planchado, Manga larga de color celeste', precio: 1000, stock: 10, imagen: '../../src/assets/Productos/Cceleste.jpg'},
     {id: '3', categoria: 'Camisa', nombre: 'Camisa Naranja', detalle: 'Camisa ligera de planchado, Manga larga de color naranja', precio: 1000, stock: 10, imagen: '../../src/assets/Productos/Cnaranja.jpg'},
