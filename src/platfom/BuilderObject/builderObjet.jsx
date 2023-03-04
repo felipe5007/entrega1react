@@ -1,20 +1,18 @@
+import categoria from "./categoria";
 
-// El constructor de objeto consta de varios elementos
+let estado = ["Activo", "Inactivo"];
+ 
 
 
-
-const buildObjet = () => {
-    this.name = "Titulo";
-    this.imageVP = "imagen";
-    this.categoria = "categoria";
-}
+class buildObjet (categoria, )
 
 
 
+// Eventos que se genera
 
-let categorizar = () => {
+
+
     //Evalar si el categorizador es mejor con this o while
-}
 
 
 // VP = Vista Previa -> Lo componen el titulo, img central y una breve descripción
@@ -33,3 +31,4 @@ let categorizar = () => {
 //Categorias / Subcategorias -> Con el fin de simplificar la experiencia de  usuario debemos categorizar y subcategorizar los objetos, ya que cada objeto tiene componentes unicos, tambien debemos definir un rol al objeto tipo NULL con el fin de generar eventos.
 
 
+export class BuildObjet;
