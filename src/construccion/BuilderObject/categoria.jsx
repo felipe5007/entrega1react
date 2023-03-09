@@ -1,7 +1,7 @@
 import floraBuild from "../categorias/flora";
 // declarar el this.categoria al jsx correspondiente
 
-class categoria () { 
+function categoria () { 
     constructor (floraBuild, fauna, clima, geologia, astronimia, deporte, usuario, mitos, leyendas, accesibilidad)
     this.flora = floraBuild;
     this.fauna = fauna;
@@ -23,12 +23,5 @@ if (categoria.flora == "flora") {
 
 
 
-
-export default categoria;
-
-if ( categoria == "flora" ) {
-    then 
-    
-}
 
 export default categoria;
