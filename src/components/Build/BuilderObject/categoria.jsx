@@ -8,8 +8,8 @@ function categoria () {
     this.geologia = geologia;
     this.clima = clima;
     this.astronomia = astronomia; 
-    this.deporte = "deporte";   
-    this.usuario = "usuario";
+    this.deporte = deporte;   
+    this.usuario = UNSAFE_useScrollRestoration;
     this.mitos = "mitos";
     this.leyendas = "leyendas";
     this.accesibilidad = "accesibilidad";
@@ -17,7 +17,8 @@ function categoria () {
 }
 
 if (categoria.flora == "flora") {
-    then
+    then 
+    const flora = floraBuild
     
 }
 
