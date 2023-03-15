@@ -6,6 +6,7 @@ function App() {
   return (
         <div className="flex">
           <SideBar />
+          <ItemListContainer habla="Esta es mi pagina" />
           </div>
   );
 }
