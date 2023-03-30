@@ -4,22 +4,24 @@ import { getProducts } from "../../asyncMock";
 const ItemListContainer = () => {
   const [products, setProducts] = useState([])
 
-useEffect(() =()
-  .then(response => {
-    setProducts(response)
-  })
-}, [])
+  useEffect(() => {
+    getProducts()
+    .then(response => {
+      setProducts(response)
+    })
+  }, [])
+  
 
 return (
       
   <div>
-    <h1>Saludo</h1>
+    <h1>Hola estoy intentandolo</h1>
 
     <div>
       {products.map((prod) => (
         <div key={prod.id}>
           <h2>{prod.name}</h2>
-          <img src={prod.img} alt={prod.name} />
+          <img src={prod.img} alt={prod.name} Class="imgCard" />
           <button>Ver Detalles</button>
         </div>
       ))}

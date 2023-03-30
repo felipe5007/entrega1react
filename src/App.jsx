@@ -8,6 +8,7 @@ function App() {
   return (
         <div className="flex-row">
           <BrowserRouter>
+          <SideBar/>
           <Routes>
             <Route path="/" element={<ItemListContainer/>}/>
           </Routes>

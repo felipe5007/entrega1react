@@ -6,7 +6,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color rojo',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Croja.jpg'},
+      img: '../../src/assets/Productos/Croja.jpg'},
 
     {
       id: '2',
@@ -15,7 +15,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color celeste',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Cceleste.jpg'
+      img: '../../src/assets/Productos/Cceleste.jpg'
     },
 
     {
@@ -25,7 +25,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color naranja',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Cnaranja.jpg'
+      img: '../../src/assets/Productos/Cnaranja.jpg'
     },
 
     {
@@ -35,7 +35,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color Blanco',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Cblanca.jpg'
+      img: '../../src/assets/Productos/Cblanca.jpg'
     },
     {
       id: '5', 
@@ -44,7 +44,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color rosa',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Crosa.jpg'
+      img: '../../src/assets/Productos/Crosa.jpg'
     },
 
     {
@@ -54,7 +54,7 @@ const products = [
       description: 'Camisa ligera de planchado, Manga larga de color verde',
       price: 1000,
       stock: 10,
-      imagen: '../../src/assets/Productos/Cverde.jpg'
+      img: '../../src/assets/Productos/Cverde.jpg'
     },
 
     {
@@ -64,7 +64,7 @@ const products = [
       description: 'Poleron Unisex fino Color amarillo',
       price: 1500,
       stock: 10,
-      imagen: '../../src/assets/Productos/Pamarilla.png'
+      img: '../../src/assets/Productos/Pamarilla.png'
     },
 
     {
@@ -74,7 +74,7 @@ const products = [
       description: 'Poleron Unisex fino Color azul',
       price: 1500,
       stock: 10,
-      imagen: '../../src/assets/Productos/Pazul.png'
+      img: '../../src/assets/Productos/Pazul.png'
     },
 
     {
@@ -84,7 +84,7 @@ const products = [
        description: 'Poleron Unisex fino Color blanco',
        price: 1500,
        stock: 10,
-       imagen: '../../src/assets/Productos/Pblanco.png'
+       img: '../../src/assets/Productos/Pblanco.png'
       },
 
     {
@@ -93,7 +93,7 @@ const products = [
       description: 'Poleron Unisex fino Color rojo',
       price: 1500,
       stock: 10,
-      imagen: '../../src/assets/Productos/Proja.png'
+      img: '../../src/assets/Productos/Proja.png'
     },
 
     {
@@ -103,7 +103,7 @@ const products = [
       description: 'Poleron Unisex fino Color verde',
       price: 1500,
       stock: 10,
-      imagen: '../../src/assets/Productos/Pverde.png'
+      img: '../../src/assets/Productos/Pverde.png'
     }
   ]
 
