@@ -18,17 +18,16 @@ const NavBar = () => {
 
 return (
     <nav className="flex justify-around align-middle">
-        <h1 className="font-bold text-xl mb-2">Tienda Trakk</h1>
+        <h1  className="font-bold text-xl mb-2">Tienda Trakk</h1>
         <div>
+
             {
                 categories.map(cat => {
                     return (
-                        <Link key={cat.id} to={`/category/${cat.slug}`}>{cat.description}</Link>
+                        <Link key={cat.id} to={`/category/${cat.slug}`} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">{cat.description}</Link>
                     )
                 })
             }
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Camisa</button>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Poleron</button>
         </div>
     </nav> 
 )}

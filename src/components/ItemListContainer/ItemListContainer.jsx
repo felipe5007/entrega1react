@@ -23,7 +23,7 @@ const ItemListContainer = () => {
       setLoading(false)
     })
 
-  }, [])
+  }, [categoryId])
   
   if(loading) { 
     return <h1 className="font-bold text-xl mb-5">Cargando.... Calmate</h1> 
