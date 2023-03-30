@@ -40,7 +40,7 @@ return (
           <h2 className="font-bold text-xl mb-2">{prod.name}</h2>
           <img src={prod.img} alt={prod.name} className="w-full" />
           <h3 className="font-bold text-xl mb-2">Precio: ${prod.price}</h3>
-          <Link to={`/item/${prod.id}`} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Ver Detalles</Link>
+          <Link to={`/item/${prod.id}`} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Ver Detalles</Link>
 
         </div>
       ))}
