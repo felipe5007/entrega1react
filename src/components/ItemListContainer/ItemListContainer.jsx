@@ -11,7 +11,8 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     const asyncFunction = categoryId ? getProductsByCategory : getProducts
-
+    
+    setLoading(true)
     asyncFunction(categoryId)
     .then(response => {
       setProducts(response)
@@ -34,6 +35,7 @@ const ItemListContainer = () => {
 return (
        
   <div >
+    <h1 className="font-bold text-xl mb-2"> Listado de Productos</h1>
     <div>
       {products.map((prod) => (
         <div key={prod.id} className="max-w-sm rounded overflow-hidden shadow-lg">

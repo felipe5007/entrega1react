@@ -18,7 +18,7 @@ const NavBar = () => {
 
 return (
     <nav className="flex justify-around align-middle">
-        <h1  className="font-bold text-xl mb-2">Tienda Trakk</h1>
+        <Link to='/' className="font-bold text-xl mb-5" >Tienda Trakk</Link>
         <div>
 
             {
