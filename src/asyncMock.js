@@ -89,11 +89,12 @@ const products = [
 
     {
       id: '10',
+      category: 'Poleron',
       name: 'Poleron rojo',
       description: 'Poleron Unisex fino Color rojo',
       price: 1500,
       stock: 10,
-      img: '../../src/assets/Productos/Proja.png'
+      img: '../../src/assets/Productos/Proja.png',
     },
 
     {
