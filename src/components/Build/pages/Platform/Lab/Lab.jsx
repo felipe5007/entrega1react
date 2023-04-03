@@ -1,7 +1,8 @@
 const Lab = () => {
     
-    return
-    <h1>Lab</h1>
-}
+    return (
+        <h1>Laboratorio</h1>
+        );
+    }
 
 export default Lab

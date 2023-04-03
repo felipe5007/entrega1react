@@ -1,7 +1,8 @@
 const Team = () => {
     
-    return
-    <h1>Team</h1>
+    return (
+        <h1>Equipo</h1>
+        );
 }
 
 export default Team

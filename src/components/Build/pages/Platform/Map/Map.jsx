@@ -1,7 +1,8 @@
 const Map = () => {
     
-    return
-    <h1>Map</h1>
+    return (
+        <h1>Mapa</h1>
+        );
 }
 
 export default Map

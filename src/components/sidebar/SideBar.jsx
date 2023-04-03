@@ -11,7 +11,8 @@ const SideBar = () => {
     return (
         <div className="fixed top-0 left-0 h-screen w-16 m-0
         flex flex-col  bg-gray-900 text-white shadow-lg ">
-        <SideBarIcon icon={<AiFillHome size="28" />} text={'Home'} id="Home" />
+
+        <SideBarIcon icon={<AiFilHome size="28" />} text={'Home'} id="Home"/>
         <SideBarIcon icon={<FaMapMarkedAlt size="32" />} text={'Mapa'} />
         <SideBarIcon icon={<MdExplore size="30" />} text={'Explorar'} />
         <SideBarIcon icon={<ImLab size="27" />} text={'Laboratorio'}/>
