@@ -1,6 +1,6 @@
 import "./App.css";
-import SideBar from "./components/sidebar/SideBar";
-import NavBar from "./components/NabBar/NavBar";
+import SideBar from "./components/Sidebar/SideBar";
+import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer  from "./components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

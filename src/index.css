@@ -21,3 +21,7 @@
     transition-all duration-100 scale-0 origin-left;
   }
 }
+
+.active{
+  color: green;
+}

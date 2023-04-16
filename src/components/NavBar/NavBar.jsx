@@ -24,7 +24,8 @@ return (
             {
                 categories.map(cat => {
                     return (
-                        <Link key={cat.id} to={`/category/${cat.slug}`} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">{cat.description}</Link>
+                        <Link key={cat.id} to={`/category/${cat.slug}`} 
+                        >{cat.description}</Link>
                     )
                 })
             }
