@@ -38,6 +38,7 @@ const products = [
       stock: 10,
       img: '../../src/assets/Productos/Cblanca.jpg'
     },
+    
     {
       id: '5', 
       category: 'camisa',
