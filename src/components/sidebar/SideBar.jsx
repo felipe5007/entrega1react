@@ -18,8 +18,6 @@ const SideBar = () => {
         <SideBarIcon icon={<ImLab size="27" />} text={'Laboratorio'}/>
         <SideBarIcon icon={<BsFillPeopleFill size="30" />} text={'Comunidad'}/>
         <SideBarIcon icon={<FaUserCircle size="30" />} text={'Mi Perfil'}/>
-        <SideBarIcon icon={<BsFillCartFill size="27" />} text={'Carrito'}> <Cartwidget> </Cartwidget> </SideBarIcon>
-
         </div>
     );
 };
