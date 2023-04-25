@@ -1,6 +1,7 @@
 import { getCategories } from "../../asyncMock"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import CartWidget from "../CartWidget/CartWidget"
 
 const NavBar = () => {
 
@@ -29,6 +30,7 @@ return (
                     )
                 })
             }
+            <CartWidget/>
         </div>
     </nav> 
 )}
