@@ -1,19 +1,29 @@
+import { Link } from "react-router-dom"
 import ItemCount from "../ItemCount/ItemCount"
-
+import { useState } from "react"
 const ItemDetail = ({name, img, price, stock}) => {
 
-    const handleOnAdd = (quantity) => {
-        console.log(`se agregaron ${quantity} ${name}`)
+    const [gotoCart, setGotoCart] = useState(false); 
+
+    const HandleOnAdd = (quantity) => {
+        console.log(`Compraste ${quantity} ${name}`);
+        setGotoCart(true);
     }
+
+
 
     return(
     <div>
                 <h2  className="font-bold text-xl mb-5">{name}</h2>
                 <img src={img} alt={name} className="w-full"/>
-                <h3 className="font-bold text-xl mb-5">Precio: ${price}</h3>
-                <ItemCount stock={stock} initial={1} onAdd={handleOnAdd}/>
+                <h3 className="font-bold text-xl mb-5">Precio: ${price}</h3>  
+                {
+                    gotoCart
+                    ? <Link to={'/Cart'}>Terminar Compra</Link>
+                    : <ItemCount stock={stock} initial={1} onAdd={HandleOnAdd}/>
+                }
             </div>
     )
 }
-
+ 
 export default ItemDetail
