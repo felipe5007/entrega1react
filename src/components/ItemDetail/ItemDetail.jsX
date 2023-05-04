@@ -12,6 +12,12 @@ const ItemDetail = ({name, img, price, stock}) => {
     const HandleOnAdd = (quantity) => {
         console.log(`Compraste ${quantity} ${name}`);
         setGotoCart(true);
+        const data = {
+            name,
+            img,
+            price,
+            stock,
+        }
         addProduct(data, quantity);
     }
 

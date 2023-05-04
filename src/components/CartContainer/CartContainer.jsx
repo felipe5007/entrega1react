@@ -1,10 +1,26 @@
 import React from 'react'
+import { useCartContext } from '../../context/CartContext'
 
-const CartCointainer = () => {
+const CartContainer = () => {
+  const { cart, totalPrice} = useCartContext();
+
+  if (cart.length === 0) {
   return (
-    <div>CartCointainer</div>
+  <>
+
+  <p>No hay elementos en el carrito</p>
+  <Link to='/'>Hacer compras</Link>
+    </>
   )
 }
+return (
+  <>
+  {
+    cart.map(products => <ItemCart key={products.id} products={products}/>)
+  }
+  </>
+)
+}
 
-export default CartCointainer
+export default CartContainer
 
