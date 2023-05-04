@@ -28,7 +28,7 @@ const ItemDetail = ({name, img, price, stock}) => {
                 <h3 className="font-bold text-xl mb-5">Precio: ${price}</h3>  
                 {
                     gotoCart
-                    ? <Link to={'/Cart'}>Terminar Compra</Link>
+                    ? <Link to={'/CartWidget'}>Terminar Compra</Link>
                     : <ItemCount stock={stock} initial={1} onAdd={HandleOnAdd}/>
                 }
             </div>
