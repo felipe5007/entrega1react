@@ -27,7 +27,7 @@ const ItemDetail = ({name, img, price, stock}) => {
                 <img src={img} alt={name} className="w-full"/>
                 <h3 className="font-bold text-xl mb-5">Precio: ${price}</h3>  
                 {
-                    SetGotoCart
+                    gotoCart
                     ? <Link to={'/CartContainer'}>Terminar Compra</Link>
                     : <ItemCount stock={stock} initial={1} onAdd={HandleOnAdd}/>
                 }
