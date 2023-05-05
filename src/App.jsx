@@ -11,9 +11,9 @@ function App() {
 
   return (
         <div className="flex-column">
+          <CartProvider>
           <BrowserRouter>
           <SideBar/>
-          <CartProvider>
           <NavBar/> 
           <Routes>
             <Route path='/' element={<ItemListContainer/>}/>
@@ -21,8 +21,8 @@ function App() {
             <Route path='/item/:productId' element={<ItemDetailContainer/>}/>
             <Route path="/CartContainer" element={<CartContainer/>}/>
           </Routes>
-          </CartProvider>
           </BrowserRouter>
+          </CartProvider>
           </div>
   );
 }

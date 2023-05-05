@@ -4,10 +4,11 @@ import { useState } from "react"
 import { useCartContext } from "../../context/CartContext"
 
 
-const ItemDetail = ({name, img, price, stock}) => {
+const ItemDetail = ({name, img, price, stock, id }) => {
 
-    const [gotoCart, setGotoCart] = useState(false); 
     const {addProduct} = useCartContext();
+    const [gotoCart, setGotoCart] = useState(false); 
+
 
     const HandleOnAdd = (quantity) => {
         console.log(`Compraste ${quantity} ${name}`);
@@ -17,9 +18,11 @@ const ItemDetail = ({name, img, price, stock}) => {
             img,
             price,
             stock,
+            id
+        }
         }
         addProduct(data, quantity);
-    }
+    
 
     return(
     <div>
@@ -33,6 +36,6 @@ const ItemDetail = ({name, img, price, stock}) => {
                 }
             </div>
     )
-}
- 
+            }
+
 export default ItemDetail
