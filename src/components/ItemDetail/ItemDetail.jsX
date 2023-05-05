@@ -20,13 +20,13 @@ const ItemDetail = ({name, img, price, stock, id }) => {
             stock,
             id
         }
-        }
         addProduct(data, quantity);
-        console.log(img);
+        }
+       
     return(
     <div>
                 <h2 className="font-bold text-xl mb-5">{name}</h2>
-                <img src={img} alt={name} className="w-full"/>
+                <img src={img} alt={name} className="w-96"/>
                 <h3 className="font-bold text-xl mb-5">Precio: ${price}</h3>  
                 {
                     gotoCart
@@ -38,4 +38,4 @@ const ItemDetail = ({name, img, price, stock, id }) => {
 
             }
 
-export default ItemDetail
+export default ItemDetail

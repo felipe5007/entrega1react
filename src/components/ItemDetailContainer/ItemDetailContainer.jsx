@@ -1,7 +1,7 @@
 import { getProductsById } from "../../asyncMock"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import ItemDetail from "../ItemDetail/ItemDetail.jsX"
+import ItemDetail from "../ItemDetail/ItemDetail"
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState({})
@@ -27,7 +27,7 @@ const ItemDetailContainer = () => {
             return 
             <h3 className="font-bold text-xl mb-5"> Cargando..... calmao</h3>
         }
-
+console.log(product);
 
     return( 
         <div>

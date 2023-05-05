@@ -1,5 +1,6 @@
 import React from 'react'
 import { useCartContext } from '../../context/CartContext'
+import ItemCart from '../ItemCart/ItemCart';
 
 const CartContainer = () => {
   const { cart, totalPrice} = useCartContext();

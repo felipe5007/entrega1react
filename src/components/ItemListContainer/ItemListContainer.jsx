@@ -38,7 +38,7 @@ return (
     <h1 className="font-bold text-xl mb-2"> Listado de Productos</h1>
     <div>
       {products.map((prod) => (
-        <div key={prod.id} className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div key={prod.id} className="max-w-sm rounded overflow-hidden shadow-lg ">
           <h2 className="font-bold text-xl mb-2">{prod.name}</h2>
           <img src={prod.img} alt={prod.name} className="w-full" />
           <h3 className="font-bold text-xl mb-2">Precio: ${prod.price}</h3>
