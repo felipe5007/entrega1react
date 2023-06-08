@@ -1,3 +1,6 @@
+import React from "react"
+import { getFirestore, doc, getDoc } from 'firebase/firestore'
+
 const products = [
     {
       id: '1',

@@ -3,8 +3,6 @@ import { AiFillHome } from "react-icons/ai";
 import { MdExplore } from "react-icons/md";
 import { FaMapMarkedAlt, FaUserCircle } from "react-icons/fa";
 import { ImLab } from "react-icons/im";
-import Cartwidget from '../CartWidget/CartWidget';
-import { Route, Routes, BrowserRouter, Link } from 'react-router-dom';
 
 // Enlazar espacios de trabajo con Dom Ghost
 const SideBar = () => {
